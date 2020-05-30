@@ -10,7 +10,7 @@ let PP = {
         function(options) {
             return session({
                 secret: 'passwordProtected',
-                resave: false,
+                resave: true,
                 saveUninitialized: true,
                 unset: 'destroy',
                 name: 'passwordProtected',
