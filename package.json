@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "express-password-protect",
+        "scope": null,
+        "escapedName": "express-password-protect",
+        "name": "express-password-protect",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/mnt/c/Users/carse/Desktop/dpi"
+    ]
+  ],
+  "_from": "express-password-protect@latest",
+  "_id": "express-password-protect@1.0.2",
+  "_inCache": true,
+  "_location": "/express-password-protect",
+  "_nodeVersion": "8.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/express-password-protect_1.0.2_1528231875253_0.32851263416712206"
+  },
+  "_npmUser": {
+    "name": "jdmann",
+    "email": "info@sedonawebservices.com"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "express-password-protect",
+    "scope": null,
+    "escapedName": "express-password-protect",
+    "name": "express-password-protect",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/express-password-protect/-/express-password-protect-1.0.2.tgz",
+  "_shasum": "9cde3eb00f68c567b35cfd5d2721d0b6748130a8",
+  "_shrinkwrap": null,
+  "_spec": "express-password-protect",
+  "_where": "/mnt/c/Users/carse/Desktop/dpi",
+  "author": {
+    "name": "Jonathan D. Mann"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "pug": "^2.0.3"
+  },
+  "description": "simple password protection middleware intended for development purposes",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-poeHwJknLa/PV/Sgv6RlIgUqRhKaJAY5h0cNcpiuWvscTf8QvN5G+TDTUSPgv6uPEhViIP0+5gngz5k8l0DCAw==",
+    "shasum": "9cde3eb00f68c567b35cfd5d2721d0b6748130a8",
+    "tarball": "https://registry.npmjs.org/express-password-protect/-/express-password-protect-1.0.2.tgz",
+    "fileCount": 6,
+    "unpackedSize": 6385,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbFvfDCRA9TVsSAnZWagAAzPEQAJRyNb77wgwkjM9PKhs3\nALrIJ/i9KMv+qrJBDIsLb7/urHh5D0GrJk0EaadHF9tjbVR7XuhuR7zeU8Um\n7QWDpN3NvGm4qq/nq7D6pL1HEMcCtALhI3kJ2JoRYuW8HkIMLsJ6c9ir6Gg8\n5GVVxTSOW+DXoxFDfT5pRW6L8gwdDkwkd4OSPlSYF9V+o5O170Lqf3Z9airZ\n6nvZjaDrNvtUZml5vkH/2CM8Grf+Gj41qQx76spPS1bugESqKtAwowyVrDri\n8kg/+G2Wz8ZSQkeHpZMEP5d+tJq2jTxaoXebsj9QzUuert8EKJ+pk/Xhz9Ja\nC9voCR2sn3We7FDoVAhNw8BS5TDVOElAXePGNDFY61/m1B1vkzWjTO+HqaIQ\nSc6sQ4H0emq8tjECQIHqBFJdDHKkTlmBllMFAqO5dG0dZShD01QVjIYRjlZW\nI7ptdTAQyBT8KVnraivrkkAZGUK1NOxm6Veb/+GUmhIa4aIf4VIqxmuPaZHv\nycljbvftR9j3hk/7oamQofKxf5RjS5T/ocQZefN1xdAyVe6qzu67Gvx9CfGq\nuC1FznkKhSCkiYo/eQCtT8e/1FBaHV+WYbN2iQ79/xCVu5wBFSY6BHhGwFja\nfLgsCZ0J6CKBNkWm/VHQv2VIwlfFRTT0QxZhVal6UyywjMgsqf2VrMso4xR4\nFqlX\r\n=evWc\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "19916e9f449a1c2511062ed619bb666c395ac17c",
+  "keywords": [
+    "express",
+    "password",
+    "protection",
+    "protect",
+    "development"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "jdmann",
+      "email": "info@sedonawebservices.com"
+    }
+  ],
+  "name": "express-password-protect",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/jdmann/express-password-protect"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
