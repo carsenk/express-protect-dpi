@@ -8,13 +8,15 @@ html(dir="ltr", lang="en-US")
 		style
 			include style.css	
 	body
-		.container
+		.container(style='margin:100px;padding:30px;', align='center')
 			form(action="/" method="post")
 				p(align='center')
-					img(src="https://user-images.githubusercontent.com/10162347/85527565-370e6b80-b5c8-11ea-9c55-c7d262ccdc14.png", height="128px", width="128px", align="center")
-				h1 Login to dPi
+					img(src="https://user-images.githubusercontent.com/10162347/85527565-370e6b80-b5c8-11ea-9c55-c7d262ccdc14.png", height="250px", width="266px", align="center")
 				.form-content
 					input(type="text" id="PPU1" name="PPU1" placeholder="username")
 					input(type="password" id="PPP1" name="PPP1" placeholder="password")
 					br
-					input.button(type="submit" value="Submit") 
+					input.button(style='background-color: #444;', type="submit" value="Login") 
+				br
+				span(style='color:#777;')
+					| Version: Alpha
